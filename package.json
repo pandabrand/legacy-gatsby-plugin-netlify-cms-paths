@@ -13,7 +13,7 @@
     "relative"
   ],
   "main": "index.js",
-  "author": "Kennedy Rose <krose@escaladesports.com>",
+  "author": "Frederick Wells <pandabrand@pandabrand.net>",
   "repository": {
     "type": "git",
     "url": "https://github.com/pandabrand/legacy-gatsby-plugin-netlify-cms-paths.git"
@@ -34,5 +34,8 @@
     "read-yaml-promise": "^1.0.2",
     "slash": "^3.0.0",
     "unist-util-select": "^1.5.0"
+  },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/"
   }
 }
