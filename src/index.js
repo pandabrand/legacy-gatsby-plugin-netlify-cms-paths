@@ -2,6 +2,7 @@ const select = require(`unist-util-select`)
 const makeRelative = require(`./make-relative`)
 
 module.exports = async ({ markdownNode, markdownAST, getNode }, options) => {
+	console.log(markdownAST)
 	const imgs = select(markdownAST, `image`)
 	if(imgs.length){
 		const { absolutePath } = getNode(markdownNode.parent)

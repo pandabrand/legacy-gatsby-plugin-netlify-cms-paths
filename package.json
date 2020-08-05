@@ -16,15 +16,14 @@
   "author": "Kennedy Rose <krose@escaladesports.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/escaladesports/gatsby-plugin-netlify-cms-paths.git"
+    "url": "https://github.com/pandabrand/legacy-gatsby-plugin-netlify-cms-paths.git"
   },
   "license": "MIT",
   "scripts": {
     "build": "esca-scripts build --dist './' --no-remove",
     "prepublishOnly": "npm run build",
     "reset": "esca-scripts reset",
-    "test": "npm run build && esca-scripts test",
-    "travis": "opn https://travis-ci.org/escaladesports/gatsby-plugin-netlify-cms-paths/branches"
+    "test": "npm run build && esca-scripts test"
   },
   "devDependencies": {
     "esca-scripts": "^1.4.0",
